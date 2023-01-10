@@ -72,9 +72,9 @@ I recommend that you configure a static ip address for the PTP ethernet interfac
 username: admin
 password: Pass1234
 ```
-![alt text](graphics/router_login.png "Title")
+![alt text](AAU_Audio_Sync/graphics/router_login.png "Title")
 To set static ip's for the connected devices navigate to LAN->DHCP Server->Manually assign IP
-![alt text](graphics/router_dhcp.png "Title")
+![alt text](AAU_Audio_Sync/graphics/router_dhcp.png "Title")
 
 In case you do not wish to use router defined static ip's you can directly alter the interface ip address using the script:
 ```
@@ -134,7 +134,7 @@ To compare the delay between two gstreamer audio streams the audio output of the
 ![alt text](AAU_Audio_Sync/graphics/gstreamer_pulse_init.jpg "Title")
 
 however over the next couple of minutes the time shift between the two streams increase to a couple of milliseconds:
-![alt text](graphics/gstreamer_pulse_delay.jpg "Title")
+![alt text](AAU_Audio_Sync/graphics/gstreamer_pulse_delay.jpg "Title")
 
 The reason for this desynchronisation is not known to me, though I suspect it has something to do with the gstreamer configuration.
 
@@ -146,7 +146,7 @@ For your final setup I recommend that you split your traffic into three types ac
 3. WIFI for audio streaming.
 
 The proposed setup is shown below:
-![alt text](graphics/network_setup.drawio.png "Title")
+![alt text](AAU_Audio_Sync/graphics/network_setup.drawio.png "Title")
 
 To allow for a more flexible setup, I recommend that the 8 receiving PC's have atleast one build in ethernet port (for the management network) and space for at least three PCIe expansion cards:
 
