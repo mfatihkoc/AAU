@@ -131,7 +131,7 @@ In case of issues, check to make sure that the ip addresses in `gstreamer_slave_
 Using the method descripted above to synchronize two PC's using I210 NIC connected through an AX88U router, time synchronisation in the order of 10s of nanoseconds was achieved.
 
 To compare the delay between two gstreamer audio streams the audio output of the devices can be connected to an oscilloscope and compared. Initially when gstreamer is first started on the devices, we see synchronisation in the order of 100's of us:
-![alt text](graphics/gstreamer_pulse_init.jpg "Title")
+![alt text](AAU_Audio_Sync/graphics/gstreamer_pulse_init.jpg "Title")
 
 however over the next couple of minutes the time shift between the two streams increase to a couple of milliseconds:
 ![alt text](graphics/gstreamer_pulse_delay.jpg "Title")
