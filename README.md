@@ -125,6 +125,8 @@ After both slaves have been started you can start the master script:
 sudo ./gstreamer_master.sh
 ```
 
+In case of issues, check to make sure that the ip addresses in `gstreamer_slave_2.sh` and `gstreamer_master.sh` match the network configuration of the actual devices.
+
 ## Gstreamer Setup using UDP file transfer
 
 Launch the gstreamer slave device.
@@ -137,7 +139,7 @@ Now, time for launching gstreamer from master device.
 sudo ./sender_udp.sh
 ```
 
-In case of issues, check to make sure that the ip addresses in `gstreamer_slave_2.sh` and `gstreamer_master.sh` match the network configuration of the actual devices.
+
 
 ## Results
 Using the method descripted above to synchronize two PC's using I210 NIC connected through an AX88U router, time synchronisation in the order of 10s of nanoseconds was achieved.
