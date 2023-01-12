@@ -129,6 +129,8 @@ In case of issues, check to make sure that the ip addresses in `gstreamer_slave_
 
 ## Gstreamer Setup using UDP file transfer
 
+![alt text](AAU_Audio_Sync/audio/lifelike-126735 "Title")
+
 Launch the gstreamer slave device.
 ```
 sudo ./receiver_udp.sh
