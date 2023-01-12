@@ -125,6 +125,18 @@ After both slaves have been started you can start the master script:
 sudo ./gstreamer_master.sh
 ```
 
+## Gstreamer Setup using UDP file transfer
+
+Launch the gstreamer slave device.
+```
+sudo ./receiver_udp.sh
+```
+
+Now, time for launching gstreamer from master device.
+```
+sudo ./sender_udp.sh
+```
+
 In case of issues, check to make sure that the ip addresses in `gstreamer_slave_2.sh` and `gstreamer_master.sh` match the network configuration of the actual devices.
 
 ## Results
