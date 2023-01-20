@@ -1,1 +1,6 @@
 
+#I use same setup, I run master and slave 1 at first PC and slave 2 on second PC. I record each 15 seconds in two channel of each slaves (slave1 and slave2)
+ 
+#First, as soon as gstreamer master run I started first record name “ after 0 min 15 seconds” , “after 2 min 15 seconds ” and 3 and 5 respectively. (I take approximately the minutes after gstreamer master starts as a reference”)
+ 
+#My observation here is when the time increased, in slave 2 each 15 seconds records shifts as seen in the audio editor in compare to slave 1 record.
