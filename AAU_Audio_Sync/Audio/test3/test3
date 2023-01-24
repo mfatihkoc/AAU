@@ -1,8 +1,7 @@
 #readme
 """
-test2 which represents 10 min record configured.
+test3 presents 15 min record with slave-method=3 configured.
  
-
 test includes Unknown PCM default and Unknown parameters error at the log files that made unclear about streaming data is perfectly streaming or not but in audio editor files it look streamed though.
  
 
