@@ -1,3 +1,8 @@
 #readme
 
 #this test takes 10 minutes records that contains audio record and master and slaves log files
+"""
+test2  which represents 10 min records 
+ 
+Test includes Unknown PCM default and Unknown parameters error at the log files that made unclear about streaming data is perfectly streaming or not but in audio editor files it look streamed though.
+ """
