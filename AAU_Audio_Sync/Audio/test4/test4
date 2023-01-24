@@ -1,1 +1,9 @@
 
+#READme
+"""
+
+Here in test4 the gains on the sound card setted in same scale . Test has been conducted for 10min.
+
+Observations: desibel differences both slaves, sometimes disortation occured on signal.
+
+"""
