@@ -4,6 +4,6 @@
 here master and slave PCs are switched and then recorded audio using slave3 method
 
 PC1 that used to have master and slave1 and PC2 had slave2 privously now it is
-opposite in the tests (test5 and test6) which means PC1 have slave2, PC2 has master and slave1 configurations.
+opposite in the test6 which means PC1 have slave2, PC2 has master and slave1 configurations.
 
 """
