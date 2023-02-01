@@ -8,7 +8,16 @@ Four set of audio recording 1 minute in each sets. The following observations ar
 15-   : slave 2 is 0.014s (697 samples) forward from slave1
 
 
-gstreamer strings: rtpjitterbuffer mode=0, slave-method=1 drift-tolerance=10000, discont-wait=1000 
+gstreamer strings: 
+
+rtpjitterbuffer mode=0 (Control the buffering and timestamping mode used by the jitterbuffer, only using RTP timestamps)
+
+slave-method=1 (Different possible clock slaving algorithms used when the internal audio clock is not selected as the pipeline master clock
+GST_AUDIO_BASE_SINK_SLAVE_SKEW (1) – Adjust playout pointer when master clock drifts too much.)
+
+drift-tolerance=10000 (Controls the amount of time in microseconds that clocks are allowed to drift before resynchronisation happens)
+
+discont-wait=1000 (A window of time in nanoseconds to wait before creating a discontinuity as a result of breaching the drift-tolerance)
 
 
 """
