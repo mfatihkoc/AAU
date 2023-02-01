@@ -1,0 +1,14 @@
+"""
+
+Four set of audio recording 1 minute in each sets. The following observations are from the last peace of the all 1 minutes recording
+
+0-5 : slave 1 is 0.000s (4 samples) forward from slave2   (although from here I observed the both channel peace are seem perfectly synchronized, When I zoom I lot I have seen after initially it behaves like slave 2 is forward to slave1)
+5-10 : slave 2 is 0.008s (384 samples) forward from slave1
+10-15 : slave 2 is 0.016s (782 samples) forward from slave1
+15-   : slave 2 is 0.014s (697 samples) forward from slave1
+
+
+gstreamer strings: rtpjitterbuffer mode=0, slave-method=1 drift-tolerance=10000, discont-wait=1000 
+
+
+"""
