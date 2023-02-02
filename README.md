@@ -180,6 +180,43 @@ Compare audio drivers: Check if both systems are using the same audio drivers by
 
 Verify audio system settings: Check the audio settings in the sound settings of your operating system to make sure that both systems have the same settings.
 
+To verify audio system settings in Linux, you can follow these steps:
+
+Check the audio device:
+Use the command "aplay -l" to list all the audio devices available in your system.
+
+```
+aplay -l
+
+```
+Check the current configuration:
+Use the command "cat /proc/asound/cards" to view the configuration of the audio devices.
+
+```
+cat /proc/asound/cards
+
+```
+
+Check the ALSA driver information:
+Use the command "cat /proc/asound/modules" to view the ALSA driver information.
+
+```
+cat /proc/asound/modules
+
+```
+
+
+Check the audio system settings:
+You can also check the settings of the audio system in the configuration file "/etc/asound.conf".
+
+```
+cat /etc/asound.conf
+
+```
+
+
+
+
 
 ## Results
 Using the method descripted above to synchronize two PC's using I210 NIC connected through an AX88U router, time synchronisation in the order of 10s of nanoseconds was achieved.
