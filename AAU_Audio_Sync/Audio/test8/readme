@@ -1,6 +1,6 @@
 """
 
-Four set of audio recording 1 minute in each sets. The following observations are from the last peace of the all 1 minutes recording
+Here, recording is containing four set of audio recording 1 minute in each sets. The following observations are from the last peace of the all 1 minutes recording
 
 0-5     : slave 1 is 0.000s (4 samples) forward from slave2   (although from here I observed the both channel peace are seem perfectly synchronized, 
 When I zoom I lot I have seen after initially it behaves like slave 2 is forward to slave1)
