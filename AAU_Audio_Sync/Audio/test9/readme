@@ -2,11 +2,10 @@
 
 Here, recording is containing four set of audio recording 1 minute in each sets. The following observations are from the last piece of the all 1 minutes recording
 
-(Audio 1 #1) 0 min -           : slave 1 is  ( samples) forward from slave2   (although from here I observed the both channel peace are seem perfectly synchronized, 
-When I zoom I lot I have seen after initially it behaves like slave 2 is forward to slave1)
-(Audio 1 #2) 5 min - 10 min    : slave 2 is.   ( samples) forward from slave1
-(Audio 1 #3) 10 min - 15 min   : slave 2 is  ( samples) forward from slave1
-(Audio 1 #4) 15 min -          : slave 2 is  ( samples) forward from slave1
+(Audio 1 #1) 0 min -           : slave 2 is 7ms (329 samples) forward from slave1   
+(Audio 1 #2) 5 min - 10 min    : slave 2 is 5ms (245 samples) forward from slave1
+(Audio 1 #3) 10 min - 15 min   : slave 2 is 13ms (362 samples) forward from slave1
+(Audio 1 #4) 15 min -          : slave 2 is 21ms (1031 samples) forward from slave1
 
 
 gstreamer strings: 
