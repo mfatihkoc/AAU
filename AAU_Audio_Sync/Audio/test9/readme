@@ -1,1 +1,24 @@
-slave (1) – Slave receiver to sender clock
+"""
+
+Here, recording is containing four set of audio recording 1 minute in each sets. The following observations are from the last piece of the all 1 minutes recording
+
+(Audio 1 #1) 0 min -           : slave 1 is  ( samples) forward from slave2   (although from here I observed the both channel peace are seem perfectly synchronized, 
+When I zoom I lot I have seen after initially it behaves like slave 2 is forward to slave1)
+(Audio 1 #2) 5 min - 10 min    : slave 2 is.   ( samples) forward from slave1
+(Audio 1 #3) 10 min - 15 min   : slave 2 is  ( samples) forward from slave1
+(Audio 1 #4) 15 min -          : slave 2 is  ( samples) forward from slave1
+
+
+gstreamer strings: 
+
+rtpjitterbuffer mode=1 ( Slave receiver to sender clock)
+
+slave-method=1 (Different possible clock slaving algorithms used when the internal audio clock is not selected as the pipeline master clock
+GST_AUDIO_BASE_SINK_SLAVE_SKEW (1) – Adjust playout pointer when master clock drifts too much.)
+
+drift-tolerance=10000 (Controls the amount of time in microseconds that clocks are allowed to drift before resynchronisation happens)
+
+discont-wait=1000 (A window of time in nanoseconds to wait before creating a discontinuity as a result of breaching the drift-tolerance)
+
+
+"""
