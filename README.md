@@ -140,7 +140,45 @@ Now, time for launching gstreamer from master device.
 ```
 sudo ./sender_udp.sh
 ```
+## Audio Config
 
+To check the audio settings and configurations on both systems, follow these steps:
+
+Check the audio card specifications: You can use the aplay -l command to view a list of available sound cards and their specifications.
+
+```
+aplay -l 
+
+```
+
+
+Verify the ALSA configuration: The Advanced Linux Sound Architecture (ALSA) configuration can be found in the file /etc/asound.conf. You can compare the ALSA configuration of both systems to make sure they are the same.
+
+```
+cat /etc/asound.conf
+
+```
+
+
+Check the audio sample rate: The sample rate can be checked by running the cat /proc/asound/card0/pcm0p/sub0/hw_params command on each system. Make sure both systems have the same sample rate.
+
+
+```
+cat /proc/asound/card0/pcm0p/sub0/hw_params 
+
+```
+
+Verify the number of channels: Use the cat /proc/asound/card0/pcm0p/sub0/hw_params command to check the number of channels on each system. Make sure they are the same.
+
+```
+cat /proc/asound/card0/pcm0p/sub0/hw_params
+
+```
+
+
+Compare audio drivers: Check if both systems are using the same audio drivers by running the lsmod command and comparing the output.
+
+Verify audio system settings: Check the audio settings in the sound settings of your operating system to make sure that both systems have the same settings.
 
 
 ## Results
