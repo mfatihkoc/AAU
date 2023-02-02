@@ -215,6 +215,9 @@ cat /etc/asound.conf
 ```
 
 
+# PC 1 Audio config output
+![alt text](AAU_Audio_Sync/graphics/soundcard1_conf.png "Title")
+
 
 
 
