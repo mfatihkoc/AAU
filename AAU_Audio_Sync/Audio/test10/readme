@@ -2,10 +2,10 @@
 
 Here, recording is containing four set of audio recording 1 minute in each sets. The following observations are from the last piece of the all 1 minutes recording
 
-(Audio 1 #1) 0 min -           : slave 2 is 3ms (151 samples) forward from slave1   
-(Audio 1 #2) 5 min - 10 min    : slave 2 is 11ms (543 samples) forward from slave1
-(Audio 1 #3) 10 min - 15 min   : slave 2 is 20ms (938 samples) forward from slave1
-(Audio 1 #4) 15 min -          : slave 2 is 18ms (850 samples) forward from slave1
+(Audio 1 #1) 0 min - 1 min     : slave 2 is 3ms (151 samples) forward from slave1   
+(Audio 1 #2) 5 min - 6 min     : slave 2 is 11ms (543 samples) forward from slave1
+(Audio 1 #3) 10 min - 11 min   : slave 2 is 20ms (938 samples) forward from slave1
+(Audio 1 #4) 15 min - 16 min   : slave 2 is 18ms (850 samples) forward from slave1
 
 
 gstreamer strings: 
