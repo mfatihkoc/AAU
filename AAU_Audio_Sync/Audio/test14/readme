@@ -11,7 +11,7 @@ Here, recording is containing four set of audio recording 1 minute in each sets.
 gstreamer strings: 
 
 rtpjitterbuffer mode=0 
-slave-method=2
+slave-method=3
 drift-tolerance=10000 
 discont-wait=1000 
 
