@@ -1,3 +1,15 @@
 #here the tests are conducted with the change of the drift tolerance 1,10,100,1000 respectively. 
 
-#observations will be written soon
+#observations are following
+
+
+"""
+1.) while drift tolerance =10, the skew get closer after each set of records and after 15 minute slave 1 is 0ms (21 samples) forward from slave2, reached.
+2.) while drift tolerance=100, the the skew gets started with 4ms skewed and reduced after some time such as  
+slave 2 is 0ms forward from slave1 after 10 minute record (almost perfectly sychronized)
+3.) while drift tolerance=1 and drift tolerance=1000 both are the skew gradually increases and slave 1  is always forward from slave 2  
+
+Drift tolerance can affect the synchronization of audio streams by defining the acceptable range of deviation between the timebase of the sender 
+and receiver. If the deviation exceeds the drift tolerance the case of 1 and 1000, it may result in the audio streams becoming out-of-sync.
+
+"""
