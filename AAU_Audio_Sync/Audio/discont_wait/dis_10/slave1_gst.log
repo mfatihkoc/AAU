@@ -1,0 +1,2 @@
+0:00:00.028481498 [32m 5017[00m 0x559e48686520 [33;01mWARN   [00m [00m                alsa conf.c:5668:snd_config_expand:[00m alsalib error: Unknown parameters {AES0 0x02 AES1 0x82 AES2 0x00 AES3 0x02}
+0:00:00.028525172 [32m 5017[00m 0x559e48686520 [33;01mWARN   [00m [00m                alsa pcm.c:2664:snd_pcm_open_noupdate:[00m alsalib error: Unknown PCM default:{AES0 0x02 AES1 0x82 AES2 0x00 AES3 0x02}
