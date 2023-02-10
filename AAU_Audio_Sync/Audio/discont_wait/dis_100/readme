@@ -1,0 +1,9 @@
+
+# test with dis=100
+
+
+
+(Audio 1 #1) 0 min - 1 min     : slave 2 is 6ms forward from slave1
+(Audio 1 #2) 5 min - 6 min     : slave 2 is 5ms forward from slave1
+(Audio 1 #3) 10 min - 11 min   : slave 2 is 6ms forward from slave1
+(Audio 1 #4) 15 min - 16 min   : slave 2 is 1ms forward from slave1
