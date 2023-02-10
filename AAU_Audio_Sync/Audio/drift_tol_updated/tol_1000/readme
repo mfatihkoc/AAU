@@ -1,0 +1,6 @@
+# test with tol=1000
+
+(Audio 1 #1) 0 min - 1 min     : slave 1 is 10ms forward from slave2   
+(Audio 1 #2) 5 min - 6 min     : slave 1 is 12ms forward from slave2
+(Audio 1 #3) 10 min - 11 min   : slave 1 is 13ms forward from slave2
+(Audio 1 #4) 15 min - 16 min   : slave 1 is 15ms forward from slave2
