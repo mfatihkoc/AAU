@@ -1,3 +1,5 @@
 # here there exists 2 different tests as following
 
 # master and slave 1 run and after some time (5 and 10 min) slave 2 run.
+
+#The skew gets larger, when the time take larger the skew gets larger.
