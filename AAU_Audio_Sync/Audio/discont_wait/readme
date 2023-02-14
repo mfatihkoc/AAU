@@ -1,1 +1,8 @@
 # here is the tests with 1,10,100 discont wait 
+
+"""
+Conducted another folder with change of discont wait parameter 1,10,100 and seems 
+it has very different effect to the skew in different value
+You can see the skew with millisecond in readme as usual.
+
+"""
