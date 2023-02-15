@@ -10,7 +10,11 @@ when slave 2 join master and slave 1 after 5 minutes, slave 1 is forward 11ms th
 at 10th minute slave 1 is forward 13ms than slave 2.
 
 
-
 test2: the slave 1 and master run 10 minutes together first and then slave2 start running all together 5 minutes more.
+
+the slave 1 and master run 10 minutes together first and then slave2 start running all together 5 minutes more.
+
+when slave 2 join master and slave 1 after 10 minutes, slave 1 is forward 27ms than slave 2. 
+at 15th minute slave 1 is forward 29ms than slave 2.
 
 """
