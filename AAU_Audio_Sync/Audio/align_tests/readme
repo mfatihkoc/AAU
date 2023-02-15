@@ -1,1 +1,10 @@
 # alignment threshold with respect to 1,10,100 values
+
+"""
+
+while alignment threshold increase the skew increases with direct proportion for all test it seems, for all the test based on the records, 
+it can be conducted after 15 minute the skew in range of 8ms, also for the other time duration the skew values 
+are quite close to each other in milisecond domain, not much difference occuried in compare to the other parameters changing such as drift tolerance. 
+But of course this does not mean the skew always keep same in each time duration of records in each alignment threshold values.
+
+"""
