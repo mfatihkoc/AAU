@@ -1,0 +1,4 @@
+0:00:00.080580904 [36m 3407[00m 0x555eb3238860 [32;01mFIXME  [00m [00;04m             default gstutils.c:4025:gst_pad_create_stream_id_internal:<audiotestsrc0:src>[00m Creating random stream-id, consider implementing a deterministic way of creating a stream-id
+  [00m [00m           vadisplay gstvadisplay.c:287:_va_warning:<vadisplaydrm1>[00m VA error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+0:00:00.031537130 [31m 3408[00m 0x564e850eef30 [33;01mWARN   [00m [00m           vadisplay gstvadisplay.c:287:_va_warning:<vadisplaydrm2>[00m VA error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
+0:00:00.032126025 [31m 3408[00m 0x564e850eef30 [33;01mWARN   [00m [00m           vadisplay gstvadisplay.c:287:_va_warning:<vadisplaydrm3>[00m VA error: /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so init failed
