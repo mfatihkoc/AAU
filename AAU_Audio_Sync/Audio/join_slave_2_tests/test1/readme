@@ -1,1 +1,8 @@
 # the slave 1 and master run 5 minutes together first and then slave2 start running all together 5 minutes more.
+
+
+"""
+when slave 2 join master and slave 1 after 5 minutes, slave 1 is forward 11ms than slave 2. 
+at 10th minute slave 1 is forward 13ms than slave 2.
+
+"""
