@@ -32,6 +32,13 @@ This repository assumes that you are using ubuntu 22
 
 ```
 
+## Reports
+
+```
+Synchronizing Time with Linux PTP.docx
+```
+
+
 
 ## Installation
 To install linuxptp execute:
