@@ -4,3 +4,8 @@ that was not connected to the internet as usual.
 Note: (c1:client1) 
 Audio file is large to put, will put drive.
 time duration is around 8 minute
+
+
+Question, when I run phc2sys when both network card connected, (new NIC card connected to the router LAN port, desktop own NIC card AAU network)
+I receive in master PC clockcheck: clock jumped forward or running faster than expected and clock_realtime phc offset approximatly 146493304710.
+But when remove PCs own network card from aau network it run similary with clients PC.
