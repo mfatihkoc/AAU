@@ -1,1 +1,11 @@
 # here the ptp sych started and run around 2 minutes and then phc run to record around 1000 samples to make histogram.
+
+since phc2sys output start with high value like  phc offset -36468, the first plot test1_my1_plot.png look weird
+
+phc2sys[604602.878]: CLOCK_REALTIME phc offset    -36468 s0 freq  +10124 delay   2209
+phc2sys[604603.878]: CLOCK_REALTIME phc offset    -36724 s1 freq   +9868 delay   2228
+phc2sys[604604.879]: CLOCK_REALTIME phc offset        22 s2 freq   +9890 delay   2261
+phc2sys[604605.879]: CLOCK_REALTIME phc offset      -201 s2 freq   +9674 delay   1881
+
+
+But when we ignore 2 line stamps the plot distrubition is plotted in the test1_my2_plot.png
