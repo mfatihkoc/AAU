@@ -1,0 +1,10 @@
+
+
+Installing Instructions for ISOBELSoftware
+
+
+1. Go to IsobelSoftware
+2. run "chmod +x *.sh"
+3. run "sudo ./install.sh"
+4. run "chmod -R +777 isobel"
+5. run "./build.sh"
