@@ -261,7 +261,7 @@ To allow for a more flexible setup, I recommend that the 8 receiving PC's have a
 
 
 
-#Installing Instructions for ISOBELSoftware from B&O code; streaming audio part
+## Installing Instructions for ISOBELSoftware from B&O code; streaming audio part
 
 ```
 1. Go to IsobelSoftware
@@ -292,3 +292,44 @@ Then: Verify run Time dependency:
 run ./runSoundZoneDemo.sh
 
 ```
+
+
+## Our first streaming code drop according to the release roadmap
+ 
+* How to build and compile
+    * Unzip the isobel.zip file
+    * Dir into isobel root make sure you have the read/write right to the file folders
+    * You need to changes the path file path in the config files to point to your root dir data folder.
+        * "SOUNDZONE_FILE_FOLDER": "/home/klaus/isobel/data/" changes to your dir Changes this in
+            * WooferConfig.json
+            * SoundbarConfig.json
+            * GlobalControllerConfig.json
+ 
+    * Now compile the code using this cmd
+
+```
+        * ./scripts/build_x86.sh
+``` 
+* Run the streaming roles
+    * Run this
+        * ./StartGlobalController.sh  (this is the rtp streaming master)
+        * This will start the streaming master how will stream to two rtp clients, please note the corresponding config are the GlobalControllerConfig.json file, in this file you need to change the the gst pipeline ip address to your IP config
+            * "GST_SINK_PIPELINE_STRING": "appsrc name=appsrc  max-bytes=2400 ! audioconvert ! volume  name = vol ! queue max-size-bytes=1200 ! audioconvert ! rtpL16pay  mtu=2412 ! multiudpsink clients=127.0.0.1:12345,127.0.0.1:12346 sync=true ts-offset=-100", Here it’s just config to run on the same machine
+ 
+    * Now run
+    ```
+        * ./StartWooferClient.sh (this is a rtp streaming client)
+
+    ```
+   
+        * This will start a rtp streaming client just as your slave scripts does. Here once again the corresponding config files are the WooferConfig.json
+ 
+    * For starting a second rtp client run (this is a rtp streaming client)
+
+    
+        * ./StartSoundbarClient.sh
+
+    ```
+    * For starting a second rtp client run (this is a rtp streaming client)
+        * this will start another rtp streaming client, and the corresponding config files are the SoundbarConfig.json.  for now this is the same as the woofer config file, but for B&O where will be difference role configurations for a woofer and the soundbar.  But on each remote machine simple copy and run the woofer config files.
+ 
