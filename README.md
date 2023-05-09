@@ -257,3 +257,38 @@ To allow for a more flexible setup, I recommend that the 8 receiving PC's have a
 - I210 NIC for the PTP network
 - A WIFI card for the audio streaming network
 - A soundcard (I assume you don't wanna use the crappy output from the build in sound card?) 
+
+
+
+
+#Installing Instructions for ISOBELSoftware from B&O code; streaming audio part
+
+```
+1. Go to IsobelSoftware
+2. run "chmod +x *.sh"
+3. run "sudo ./install.sh"
+4. run "chmod -R +777 isobel"
+5. run "./build.sh"
+
+```
+
+
+# 1. Find the IsobelTypeSystem.hpp in the src folder (…/src/modules/TypeSystem/IsobelTypeSystem/IsobelTypeSystem.hpp)
+Changes the const variable to point to your folder
+    const static inline std::string SOUNDZONE_FILE_FOLDER { “/home/user/Desktop/IsobelSoftware/isobel/data/" }; // folder name for data, user needs to search for the platform location
+ 
+# 2. Changes the path on the config file for the data (…/data/Config.json)
+In the Config.json file changes this variable to point to your folder containing the config data   
+"SOUNDZONE_FILE_FOLDER": "/home/user/Desktop/IsobelSoftware/isobel/data/",   changes to  "SOUNDZONE_FILE_FOLDER": " your path to the data folder /isobel/data/"
+
+After changing isobeltypestsystem.hpp and config.json file
+```
+Go to /isobel —> run  “ ./scripts/build_x86.sh”
+```
+
+
+Then: Verify run Time dependency:
+```
+run ./runSoundZoneDemo.sh
+
+```
