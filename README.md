@@ -331,10 +331,10 @@ This will start a rtp streaming client just as your slave scripts does. Here onc
  
 For starting a second rtp client run (this is a rtp streaming client)
 
-    ```
-         ./StartSoundbarClient.sh
+```
+./StartSoundbarClient.sh
 
-    ```
-    For starting a second rtp client run (this is a rtp streaming client)
-        this will start another rtp streaming client, and the corresponding config files are the SoundbarConfig.json.  for now this is the same as the woofer config file, but for B&O where will be difference role configurations for a woofer and the soundbar.  But on each remote machine simple copy and run the woofer config files.
+```
+For starting a second rtp client run (this is a rtp streaming client)
+this will start another rtp streaming client, and the corresponding config files are the SoundbarConfig.json.  for now this is the same as the woofer config file, but for B&O where will be difference role configurations for a woofer and the soundbar.  But on each remote machine simple copy and run the woofer config files.
  
