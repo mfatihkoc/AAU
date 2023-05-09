@@ -308,22 +308,24 @@ run ./runSoundZoneDemo.sh
      Now compile the code using this cmd
 
 ```
-         ./scripts/build_x86.sh
+./scripts/build_x86.sh
+
 ``` 
 Run the streaming roles
     Run this
-        ```
-        ./StartGlobalController.sh  (this is the rtp streaming master)
+```
+./StartGlobalController.sh  (this is the rtp streaming master)
         
-        ```
+```
         This will start the streaming master how will stream to two rtp clients, please note the corresponding config are the GlobalControllerConfig.json file, in this file you need to change the the gst pipeline ip address to your IP config
             "GST_SINK_PIPELINE_STRING": "appsrc name=appsrc  max-bytes=2400 ! audioconvert ! volume  name = vol ! queue max-size-bytes=1200 ! audioconvert ! rtpL16pay  mtu=2412 ! multiudpsink clients=127.0.0.1:12345,127.0.0.1:12346 sync=true ts-offset=-100", Here it’s just config to run on the same machine
  
-    Now run
-    ```
-        ./StartWooferClient.sh (this is a rtp streaming client)
-
-    ```
+    Now run  (this is a rtp streaming client)
+    
+```
+./StartWooferClient.sh
+        
+```
    
      This will start a rtp streaming client just as your slave scripts does. Here once again the corresponding config files are the WooferConfig.json
  
