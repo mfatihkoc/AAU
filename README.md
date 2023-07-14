@@ -37,8 +37,10 @@ This repository assumes that you are using ubuntu 22
 ```
 Here you can find project reports
 1.) Synchronizing Time with Linux PTP.docx
-2.) Wireless streaming with cabled clock sychronization
-3.) Tests implementing synchronization on gstreamer
+2.) Wireless streaming with cabled clock synchronization
+3.) Tests implementing synchronization on GStreamer
+4.) Sychronization of audio over LAN network
+5.) final report for ptp synchronization
 ```
 
 
