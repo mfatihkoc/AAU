@@ -353,7 +353,23 @@ also contains txt_files that are represent of the phc and ptp4l clock images in 
 
 
 ## 2PC_setup
-```
-here the test for 2pc setup for xxx.xxx.xx.20,21 IPs addresses
 
-´´´
+here is the test for 2pc setup for xxx.xxx.xx.20,21 IPs addresses
+
+## 7PC_sych_outcome
+
+here are the images of 7 client connected  to 1 master pc sychronization output example
+
+## BO 
+
+contains the setup with BO code for audio streaming part with 2 clients, and recorded 1 sample
+
+## multiplePC / 6PC
+
+Using gstreamer pipelines the ptp sych and audio streaming with cable connection records are illustrated here.
+the 6th PC also connected to the aau network.
+
+## ptp_outputs
+
+here there are 2 test for plot of phc outcomes to see phc clock synchronization on each 2 and 8 clients respectively.
+
