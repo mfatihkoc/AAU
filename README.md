@@ -35,9 +35,11 @@ This repository assumes that you are using ubuntu 22
 ## Reports
 
 ```
-Synchronizing Time with Linux PTP.docx
+Here you can find project reports
+1.) Synchronizing Time with Linux PTP.docx
+2.) Wireless streaming with cabled clock sychronization
+3.) Tests implementing synchronization on gstreamer
 ```
-
 
 
 ## Installation
@@ -337,4 +339,21 @@ For starting a second rtp client run (this is a rtp streaming client)
 ```
 For starting a second rtp client run (this is a rtp streaming client)
 this will start another rtp streaming client, and the corresponding config files are the SoundbarConfig.json.  for now this is the same as the woofer config file, but for B&O where will be difference role configurations for a woofer and the soundbar.  But on each remote machine simple copy and run the woofer config files.
- 
+
+
+
+
+## Details folder 
+
+contains the images shows that when both NIC card connected during sych which means that when we connected ptp supported NIC for sych and also Desktop own NIC card connected to the AAU network,
+ptp library version images and asus ip network images.
+
+also contains txt_files that are represent of the phc and ptp4l clock images in order to plot the time forfrequency and samples
+
+
+
+## 2PC_setup
+```
+here the test for 2pc setup for xxx.xxx.xx.20,21 IPs addresses
+
+´´´
