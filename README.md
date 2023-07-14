@@ -10,12 +10,11 @@ This repository assumes that you are using ubuntu 22
 ```bash
 .
 └── Reports
-
- └──2PC_setu
- └──7PC_sych_outcome
- └── BO
- └──multiplePC / 6PC
- └── ptp_outputs
+└──2PC_setu
+└──7PC_sych_outcome
+└── BO
+└──multiplePC / 6PC
+└── ptp_outputs
 
 
   
