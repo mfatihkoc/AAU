@@ -87,7 +87,7 @@ password: Pass1234
 
 ![alt text](graphics/router_login.png "Title")
 To set static ip's for the connected devices navigate to LAN->DHCP Server->Manually assign IP
-![alt text](AAU_Audio_Sync/graphics/router_dhcp.png "Title")
+![alt text](graphics/router_dhcp.png "Title")
 
 In case you do not wish to use router defined static ip's you can directly alter the interface ip address using the script:
 ```
@@ -241,10 +241,10 @@ cat /etc/asound.conf
 Using the method descripted above to synchronize two PC's using I210 NIC connected through an AX88U router, time synchronisation in the order of 10s of nanoseconds was achieved.
 
 To compare the delay between two gstreamer audio streams the audio output of the devices can be connected to an oscilloscope and compared. Initially when gstreamer is first started on the devices, we see synchronisation in the order of 100's of us:
-![alt text](AAU_Audio_Sync/graphics/gstreamer_pulse_init.jpg "Title")
+![alt text](graphics/gstreamer_pulse_init.jpg "Title")
 
 however over the next couple of minutes the time shift between the two streams increase to a couple of milliseconds:
-![alt text](AAU_Audio_Sync/graphics/gstreamer_pulse_delay.jpg "Title")
+![alt text](graphics/gstreamer_pulse_delay.jpg "Title")
 
 The reason for this desynchronisation is not known to me, though I suspect it has something to do with the gstreamer configuration.
 
