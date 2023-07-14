@@ -37,7 +37,8 @@ Here you can find project reports
 ## Details folder
 ```
 
-contains the images shows that when both NIC card connected during sych which means that when we connected ptp supported NIC for sych and also Desktop own NIC card connected to the AAU network,
+contains the images shows that when both NIC card connected during sych which means that when we connected
+ptp supported NIC for sych and also Desktop own NIC card connected to the AAU network,
 ptp library version images and asus ip network images.
 
 also contains txt_files that are represent of the phc and ptp4l clock images in order to plot the time forfrequency and samples
