@@ -16,7 +16,7 @@ This repository assumes that you are using ubuntu 22
     ├── Sychronization of audio over LAN network
     ├── final report for ptp synchronization 
     ├── Details folder
-    
+ └──    
     ├── 2PC_setup
     ├── 7PC_sych_outcome
     ├── BO
