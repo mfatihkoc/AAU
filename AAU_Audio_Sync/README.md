@@ -85,7 +85,7 @@ password: Pass1234
 ```
 
 
-![alt text](AAU/AAU_Audio_Sync/graphics/router_login.png "Title")
+![alt text](AAU_Audio_Sync/graphics/router_login.png "Title")
 To set static ip's for the connected devices navigate to LAN->DHCP Server->Manually assign IP
 ![alt text](AAU_Audio_Sync/graphics/router_dhcp.png "Title")
 
