@@ -10,12 +10,7 @@ This repository assumes that you are using ubuntu 22
 ```bash
 .
 └── Reports
-    ├── Synchronizing Time with Linux PTP.docx
-    ├── Synchronizing Time with Linux PTP.docx
-    ├── Tests implementing synchronization on GStreamer
-    ├── Sychronization of audio over LAN network
-    ├── final report for ptp synchronization 
-    ├── Details folder
+
  └──2PC_setu
  └──7PC_sych_outcome
  └── BO
